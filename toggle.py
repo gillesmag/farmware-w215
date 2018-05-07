@@ -11,13 +11,13 @@ import os
 
 farmware_name = "control-w215"
 
-#def get_env(key, type_=str):
-#    return type_(os.environ["{}_{}".format(farmware_name, key)])
+def get_env(key, type_=str):
+    return type_(os.environ["{}_{}".format(farmware_name, key)])
 
 def main():
     farmware_tools.log("hello")
-    #sp = SmartPlug(get_env("ip_address"), get_env("pin_code"))
-    #farmware_tools.log("{} {}".format(get_env("ip_address"), get_env("pin_code")))
+    sp = SmartPlug(get_env("ip_address"), get_env("pin_code"))
+    farmware_tools.log("{} {}".format(get_env("ip_address"), get_env("pin_code")))
 
 if __name__ == "__main__":
     main()
