@@ -16,7 +16,7 @@ def get_env(key, type_=str):
 
 def main():
     sp = SmartPlug(get_env("ip_address"), get_env("pin_code"))
-    farmware_tools.log("{} {}".format(get_env("ip_address"), get_env("pin_code")))
+    #farmware_tools.log("{} {}".format(get_env("ip_address"), get_env("pin_code")))
 
 if __name__ == "__main__":
     main()
