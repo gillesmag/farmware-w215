@@ -5,8 +5,12 @@
     "description": "Toggle D-link DSP-W215 on and off",
     "version": "0.0.1",
     "min_os_version_major": 6,
-    "url": "",
-    "zip": "",
+    "url": "https://raw.githubusercontent.com/gillesmag/farmware-w215/master/manifest.json",
+    "zip": "https://github.com/gillesmag/farmware-w215/archive/master.zip",
     "executable": "python",
-    "args": [""]
+    "args": ["farmware-w215-master/toggle.py"],
+    "config": [
+	{ "name": "ip_address", "label": "IP address" },
+	{ "name": "pin_code", "label": "PIN code" }
+    ]
 }
