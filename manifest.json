@@ -1,0 +1,12 @@
+{
+    "package": "control-w215",
+    "language": "python",
+    "author": "Gilles Magalhaes",
+    "description": "Toggle D-link DSP-W215 on and off",
+    "version": "0.0.1",
+    "min_os_version_major": 6,
+    "url": "",
+    "zip": "",
+    "executable": "python",
+    "args": [""]
+}
