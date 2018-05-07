@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# Copied from https://github.com/FarmBot-Labs/farmware-tools
+
 '''Farmware Tools.'''
 
 import os
