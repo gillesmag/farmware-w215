@@ -3,7 +3,7 @@
     "language": "python",
     "author": "Gilles Magalhaes",
     "description": "Toggle D-link DSP-W215 on and off",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "min_os_version_major": 6,
     "url": "https://raw.githubusercontent.com/gillesmag/farmware-w215/master/manifest.json",
     "zip": "https://github.com/gillesmag/farmware-w215/archive/master.zip",
